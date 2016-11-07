@@ -29,4 +29,22 @@ if (age <= 18) {
 // 1 fish 2 fish
 var count = undefined;
 var animal = "Scary Shark"
-function animalHouse()
+function animalHouse(p1, p2) {
+  return count = p1 + p2;
+}
+
+//1 Fish 2 Many Fish (cont.)
+if (count > 2) {
+  console.log('We have to many elephants')
+}else (count = false) {
+  console.log('Welcome to the club')
+}
+
+//Assemble the Avengers
+var hero = "Hard Ironman";
+function avengersAssemble(Thor) {
+  if (true) {}
+}
+
+//Lights out
+var lights = 
