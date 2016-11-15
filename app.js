@@ -27,10 +27,10 @@ if (age <= 18) {
   xp = "has lived through many epic battles";
 }
 
-//Superman is our lovable hero, who has seen a few battles with his hammer.
+console.log(hero + 'who is our lovable hero, who' + xp + 'with his trusty' + weapon)
 
 // 1 fish 2 fish
-var count = undefined;
+var count;
 var animal = "Shark"
 function animalHouse(p1, p2) {
   return count = p1 + p2;
@@ -38,16 +38,16 @@ function animalHouse(p1, p2) {
 
 //1 Fish 2 Many Fish (cont.)
 if (count > 2) {
-  console.log('We have to many elephants')
-}else if (count = false) {
+  console.log('We have to many' + animal + 's')
+}else {
   console.log('Welcome to the club');
 }
 
 //Assemble the Avengers
 var hero = "Hulk";
-function avengersAssemble(Avengers) {
+function avengersAssemble(Avengers = "Thor") {
   if (Avengers = "Thor") {
-    console.log(Thor + "magnet");
+    console.log(Avengers + "magnet");
   }else if (Avengers = "ironman") {
     console.log("Sorry, you are not needed for this mission");
   }else if (Avengers = "captain america") {
@@ -55,12 +55,12 @@ function avengersAssemble(Avengers) {
   }else if (Avengers = "black widow") {
     console.log("Sorry, you are not needed for this mission");
   }
-  return hero = Avengers;
 }
+avengersAssemble(hero + 'smash')
 
 //Lights out
-var lights = On;
-if (lights = On) {
+var lights = True;
+if (lights = True) {
   console.log("And then there was light");
 }else (Lights = false) {
   console.log("Lights out");
